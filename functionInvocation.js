@@ -9,7 +9,7 @@ var marry1 = (person1, person2) => {
 //Arguements is created with each executin context
 
 //Each executon contest has its own this keyword, 
-//own arguments object and its own variable environment 
+//own arguments object and its own variable environment
 
 
 marry1("Utkarsh", "Rohan");

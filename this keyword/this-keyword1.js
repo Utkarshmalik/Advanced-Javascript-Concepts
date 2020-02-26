@@ -40,8 +40,6 @@ Why this ?
 
 //elaborating use-2
 
-
-
 function importantPerson() {
   console.log(this.name)
 }
@@ -63,3 +61,7 @@ const obj2 = {
 importantPerson()
 obj1.importantPerson()
 obj2.importantPerson()
+
+
+//this points to left of functionName
+//this point to which object called me

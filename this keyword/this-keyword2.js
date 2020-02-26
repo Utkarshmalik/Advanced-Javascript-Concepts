@@ -20,7 +20,7 @@ a()
 
 /*
 a: window/global object
-b: a
-c: b
+b: window/global
+c: c
 
 */

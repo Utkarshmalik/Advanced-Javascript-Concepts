@@ -146,19 +146,19 @@
 // // a()()
 
 
-// // var myObject = {
-// //   foo: "bar",
-// //   func: function () {
-// //     var self = this;
-// //     console.log("outer func:  this.foo = " + this.foo);
-// //     console.log("outer func:  self.foo = " + self.foo);
-// //     (function () {
-// //       console.log("inner func:  this.foo = " + this.foo);
-// //       console.log("inner func:  self.foo = " + self.foo);
-// //     }());
-// //   }
-// // };
-// // myObject.func();
+// var myObject = {
+//   foo: "bar",
+//   func: function () {
+//     var self = this;
+//     console.log("outer func:  this.foo = " + this.foo);
+//     console.log("outer func:  self.foo = " + self.foo);
+//     (function () {
+//       console.log("inner func:  this.foo = " + this.foo);
+//       console.log("inner func:  self.foo = " + self.foo);
+//     }());
+//   }
+// };
+// myObject.func();
 
 // // // bar
 // // // bar
@@ -193,7 +193,9 @@
 
 
 // var a = b = 3;
-
+// console.log(a);
+// console.log(b);
+// console.log(a === b);
 
 // var d = {};
 // ['zebra', 'horse'].forEach(function (k) {
@@ -213,11 +215,47 @@
 
 // console.log("A" - "B" + 2);
 
-// // for (var i = 0; i < 5; i++) {
-// //   setTimeout(function () { console.log(i); }, i * 1000);
-// // }
+
+// for (var i = 0; i < 5; i++) {
+//   setTimeout(function () { console.log(i); }, i * 1000);
+// }
+
+// for (let i = 0; i < 5; i++) {
+//   setTimeout(function () { console.log(i); }, i * 1000);
+// }
+
+// const arr = [10, 12, 15, 21, 34];
+// for (var i = 0; i < arr.length; i++) {
+//   setTimeout(function () {
+//     console.log('The index of this number is: ' + i);
+//   }, 1000);
+// }
+
+// for (var i = 0; i < 5; i++) {
+
+//   (function (x) {
+//     setTimeout(function () { console.log(x); }, i * 1000);
+//   })(i);
+// }
+
+// function func1() {
+//   return {
+//     name: "Akarshan"
+//   };
+// }
+// function func2() {
+//   return
+//   {
+//     name: "Akarshan"
+//   };
+// }
+// console.log(func1())
+// console.log(func2())
 
 
+
+
+console.log(+ "***");
 // var a = {},
 //   b = { key: 'b' },
 //   c = { key: 'c' };

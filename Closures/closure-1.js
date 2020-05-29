@@ -1,10 +1,6 @@
 /*
-
 Closures are nothing but a function with its lexical scope
-
 */
-
-
 
 
 /*
@@ -25,8 +21,9 @@ Hence closures are nothing but
 functions along with their lexical enviroment are reffered to as closures
 
 */
-function a() {
 
+
+function a() {
   let grandpa = "grandpa";
 
   return function b() {
@@ -38,9 +35,7 @@ function a() {
       return ` ${grandpa} > ${father} > ${son} `
     }
   }
-
 }
-
 
 //above function a and b are higher order functions
 
@@ -53,8 +48,6 @@ const one = a();
 //after 5000 years 
 
 const b = one()
-
-
 
 const c = b()
 

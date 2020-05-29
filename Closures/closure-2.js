@@ -8,8 +8,6 @@ function a(str) {
 }
 
 
-//it can be written using arrow functions as
-
 const welcome = a("heyooo")
 
 //after 500 years 

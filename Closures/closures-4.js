@@ -3,7 +3,7 @@
 Closures has two main benifits:
 
 1)Memory Efficient 
-2)Encapsulisation
+2)Encapsulisation and data privacy 
 
 */
 
@@ -41,6 +41,8 @@ console.log(getHD(4))
 console.log(getHD(5))
 
 //! how beautifully we solved this ...
+
+// 2- Encapsulisation : we only expose to another scope what is actually required 
 
 
 

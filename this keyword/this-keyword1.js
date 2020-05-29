@@ -6,7 +6,7 @@ function a() {
   console.log(this)
 }
 
-//a()
+a()
 
 
 //=>

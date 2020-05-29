@@ -1,14 +1,14 @@
 
 
-// console.log(name)
-// console.log(sayHi())
+console.log(name)
+console.log(sayHi())
 
 
-// function sayHi() {
-//   console.log("Hii")
-// }
+function sayHi() {
+  console.log("Hii")
+}
 
-// var name = "Utkarsh Malik"
+var name = "Utkarsh Malik"
 
 
 
@@ -25,3 +25,6 @@ function myFavourates() {
 }
 
 myFavourates()
+
+
+console.log();
